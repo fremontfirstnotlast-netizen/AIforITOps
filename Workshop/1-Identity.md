@@ -1,3 +1,4 @@
+<img width="3060" height="4080" alt="cbead684-0da1-440e-a196-7b777a10c6cd-1_all_5" src="https://github.com/user-attachments/assets/4ccd1c1b-fa3a-4515-9beb-3da46b9cd486" />
 # Exercise 1 - Identity
 
 In this exercise we will deploy the sample E-commerce application. This application is deployed in an Azure Kubernetes Service cluster. However, the application uses other Azure services such as CosmosDB, Service Bus, and Azure OpenAI. To access these services, the AKS cluster needs access to sensitive information such as connection strings, passwords, and access keys. Instead of hardcoding these values into the application source code, it's a best practice to store them in a secure location - such as Azure Key Vault - and ensure that only the nodes in your AKS cluster can access it.
